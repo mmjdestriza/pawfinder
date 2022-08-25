@@ -42,10 +42,22 @@
     width: 100%;
 }
 
+.carousel-vid{
+    width: 100%;
+    height: 200px;
+}
 
+.bg-about{
+    background-color:rgb(190,236,230);
+    background-image: linear-gradient(to bottom right,rgb(190,236,230),rgb(1,48,31));
+}
 
-.bg-custom{
-    background-color: rgb(152,76,26);
+.bg-find{
+
+}
+
+.bg-breeds{
+    background-color: darkcyan;
 }
 
 @media (min-aspect-ration: 16/9) {
