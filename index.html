@@ -10,101 +10,114 @@
     <script src="https://kit.fontawesome.com/b469a21f62.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="hero">
-        <!-- Dog Background-->
-        <video autoplay loop muted plays-inline class="back-video ">
-            <source src="vids/dogs.mp4">
-        </video>
-        <!-- Navbar-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    Pawfinder
-                  </a>
-                   
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto  ">
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#findDogs">Adopt</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#breeds">Donate</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#about">About</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-4">
-                <h3 class="text-light">A happy home for a pet is a happy home for you</h3>
-                <p class="text-light">Pets want family, so give them one</p>
-                </div>
-            </div>
-            <br>
-            <button type="button" class="btn btn-outline-light learnmorebtn" data-bs-toggle="modal" data-bs-target="#exampleModal"> 🐾 Adopt a Dog</button>
-          
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      ...
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-         </div>       
-    </div>
-
-
-    <div class="container-fluid mt-5 p-5 h-100">
-      <div class="row">
-        <div class="col-7 inline-block">
-        <img src="img/dog-people.png" style="height:500px">
+    <!-- Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+          <a class="navbar-brand" href="#">
+              Pawfinder
+            </a>
+             
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto  ">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#findDogs">Adopt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#breeds">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-5 inline-block text-center m-0 p-5">
-          <div class="col-6">
-            <h1>Adopt</h1>
-            <p>Help pets in need through sheltering, adoption, education, spay/neuter, and community outreach.</p>
-            <button type="button" class="btn btn-outline-success">Download Application Form</button>
-          </div>
-          
+      </div>
+    </nav>
+    <div class="paws">
+    <!-- Banner Image  -->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" id="banner">
+      <div class="container-fluid p-5 banner">
+        <div class="row">
+          <div class="col-4">
+            <h3 class="text-light">A happy home for a pet is a happy home for you</h3>
+            <p class="text-light">Pets want family, so give them one</p>
+            </div>
         </div>
+        <br>
+        <button type="button" class="btn btn-outline-light learnmorebtn" href="#"> 🐾 Adopt a Dog</button>
       </div>
     </div>
 
     
 
-    <div class="container-fluid p-5 bg-custom text-white h-100 mt-4" id="about">
-      <h1 class="p-3">About</h1>
-      <div class="row text-center">
-          <div class="col-6 inline-block">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, officia!</p>
+    <div class="container-fluid mt-5" style="height: 600px;">
+      <div class="row">
+        <div class="col-lg-7 col-md-12"><img src="img/dog-people.png" class="img-fluid"></div>
+        <div class="col-lg-5 col-md-12">
+          <div class="container-fluid text-center">
+            <div class="col align-self-center">
+              <h1>Adopt</h1>
+            <p>There are over 200 dogs at PARC (PAWS Animal Rehabilitation Center). All of them have been through cruelty, neglect, and pain. Therefore, we are committed to finding them loving homes.</p>
+            </div>
+            
+            <button type="button" class="btn btn-outline-success">Download Application Form</button>
           </div>
-          <div class="col inline-block align-self-end">
-              <img src="img/dog2.png" style="height: 500px; width:auto;">
-          </div>
+        </div>
       </div>
-  </div>
+    </div>
+    
+    <div class="container-fluid ms-5" style="height: 600px;">
+      <div class="row">
+        <div class="col-lg-3 col-md-12">
+          <h3>Donate</h3>
+          <h5>Please donate and help save our shelter animals</h5>
+          <p>Every year, the PAWS Animal Rehabilitation Center cares for around 300 dogs and cats rescued from cruelty or neglect. The costs of treating and rehabilitating these animals, as well as running the shelter and clinic, are funded solely by donations.</p>
+          <div class="col d-block align-items-center mt-5">
+            <div class="d-grid align-self-center">
+              <button type="button" class="btn btn-outline-primary"><i class="fa-solid fa-building-columns"></i> Bank Transfer</button>
+            </div>
+          </div>
+          <div class="col d-block">    
+            <div class="d-grid align-self-center mt-5">              
+              <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-credit-card"></i> PayPal/Credit Card</button>
+            </div>        
+          </div>
+          <div class="col d-block">
+            <div class="d-grid align-self-center mt-5">
+              <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-g"></i> GCash</button>
+            </div>
+          </div>  
+        </div>
+        
+        <div class="col-lg-9 col-md-12">
+          <div class="row text-center">
+            <div class="col-12 ">
+              <img class="img-fluid" src="img/First.png">
+            </div>
+            <div class="col-12 d-block">
+              <img class="img-fluid" src="img/Second.png">
+            </div>
+            <div class="col-12 d-block">
+              <img class="img-fluid" src="img/Third.png">
+            </div>
+          </div>
+        </div>
 
-  <footer>
-    <nav class="navbar bottom navbar-dark bg-dark">
+        
+      
+      </div>
+    </div>
+
+    <div class="container-fluid" style="height: 600px;"></div>
+  </div>
+   
+
+  
+      
+ <footer>
+    <nav class="navbar bottom navbar-dark bg-custom">
       <div class="container-fluid justify-content-center">
         <p class="navbar-brand"><code>Copyright ⓒ 2022 PawFinder</code></p>
       </div>
@@ -117,6 +130,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script type="text/javascript">
       var nav = document.querySelector('nav');
+      var banner = document.getElementById('banner');
 
       window.addEventListener('scroll', function () {
         if (window.pageYOffset > 100) {
@@ -126,40 +140,5 @@
         }
       });
     </script>
-    <script>
-        var swiper1 = new Swiper(".mySwiper1", {
-          slidesPerView: 3,
-          spaceBetween: 30,
-          slidesPerGroup: 1,
-          loop: true,
-          loopFillGroupWithBlank: true,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-          autoplay: {
-            delay: 5000,
-          },
-        });
-        var swiper2 = new Swiper(".mySwiper2", {
-          slidesPerView: 5,
-          spaceBetween: 50,
-          slidesPerGroup: 1,
-          loop: true,
-          loopFillGroupWithBlank: true,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-        });
-      </script>
   </body>
 </html>
