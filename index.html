@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PawFinders</title>
+    <link href="img/logo/love.png" rel="icon">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/b469a21f62.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -14,7 +16,8 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
       <div class="container">
           <a class="navbar-brand" href="#">
-              Pawfinder
+            <img src="/img/logo/love.png" alt="" width="30" height="26">
+              Pawfinders
             </a>
              
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -23,10 +26,10 @@
               <a class="nav-link text-white" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#findDogs">Adopt</a>
+              <a class="nav-link text-white" href="#adopt">Adopt</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#breeds">Donate</a>
+              <a class="nav-link text-white" href="#donate">Donate</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#about">About</a>
@@ -36,9 +39,9 @@
       </div>
     </nav>
     <div class="paws">
-    <!-- Banner Image  -->
+    <!-- Hero  -->
     <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" id="banner">
-      <div class="container-fluid p-5 banner">
+      <div class="container-fluid p-5" data-aos="fade-right" data-aos-delay="100">
         <div class="row">
           <div class="col-4">
             <h3 class="text-light">A happy home for a pet is a happy home for you</h3>
@@ -46,71 +49,101 @@
             </div>
         </div>
         <br>
-        <button type="button" class="btn btn-outline-light learnmorebtn" href="#"> 🐾 Adopt a Dog</button>
+        <button type="button" class="btn btn-outline-light learnmorebtn" href="#adopt"> 🐾 Adopt a Dog</button>
       </div>
     </div>
 
-    
+    <div class="container-fluid text-center bg-custom">
+        <img src="img/logo/logo1.png" class="logo">
+        <img src="img/logo/logo2.png" class="logo">
+        <img src="img/logo/logo3.png" class="logo">
+        <img src="img/logo/logo4.png" class="logo">
+    </div>
 
+  <!--Adopt-->
+  <section id="adopt"><br><br><br><br></section>
     <div class="container-fluid mt-5" style="height: 600px;">
       <div class="row">
-        <div class="col-lg-7 col-md-12"><img src="img/dog-people.png" class="img-fluid"></div>
-        <div class="col-lg-5 col-md-12">
-          <div class="container-fluid text-center">
-            <div class="col align-self-center">
+        <div class="col-lg-7 col-md-12" data-aos="fade-up"><img src="img/dog-people.png" class="img-fluid"></div>
+        <div class="col-lg-4 col-md-12 mt-lg-5 mt-md-5 mt-0 mx-auto" data-aos="fade-up" data-aos-delay="300">
+          <div class="container-fluid text-center custom bg-light">
+            <div class="col">
+              <br>
               <h1>Adopt</h1>
-            <p>There are over 200 dogs at PARC (PAWS Animal Rehabilitation Center). All of them have been through cruelty, neglect, and pain. Therefore, we are committed to finding them loving homes.</p>
-            </div>
-            
-            <button type="button" class="btn btn-outline-success">Download Application Form</button>
+              <br>
+              <p>There are over 200 dogs at our shelter. All of them have been through cruelty, neglect, and pain. Therefore, we are committed to finding them loving homes.</p>
+              <br>
+            </div>            
+            <button type="button" class="btn btn-outline-primary">Download Application Form</button>
+            <br>
+            <br>
           </div>
         </div>
       </div>
     </div>
-    
-    <div class="container-fluid ms-5" style="height: 600px;">
+
+  <!--Donate-->
+  <section id="donate"><br><br><br><br></section>
+    <div class="container-fluid ms-lg-5" style="height: 600px;">
       <div class="row">
-        <div class="col-lg-3 col-md-12">
+        <div class="col-lg-3 col-md-12 col-sm-5 bg-light text-center custom" data-aos="fade-up" data-aos-delay="300">
+          <br>
           <h3>Donate</h3>
+          <br>
           <h5>Please donate and help save our shelter animals</h5>
-          <p>Every year, the PAWS Animal Rehabilitation Center cares for around 300 dogs and cats rescued from cruelty or neglect. The costs of treating and rehabilitating these animals, as well as running the shelter and clinic, are funded solely by donations.</p>
-          <div class="col d-block align-items-center mt-5">
+          <p>Every year, our Animal Rehabilitation Center cares for around 300 dogs and cats rescued from cruelty or neglect. The costs of treating and rehabilitating these animals, as well as running the shelter and clinic, are funded solely by donations.</p>
+          <div class="col d-lg-block align-items-center mt-5">
             <div class="d-grid align-self-center">
               <button type="button" class="btn btn-outline-primary"><i class="fa-solid fa-building-columns"></i> Bank Transfer</button>
             </div>
           </div>
-          <div class="col d-block">    
+          <div class="col d-lg-block">    
             <div class="d-grid align-self-center mt-5">              
-              <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-credit-card"></i> PayPal/Credit Card</button>
+              <button type="button" class="btn btn-outline-primary"><i class="fa-solid fa-credit-card"></i> PayPal/Credit Card</button>
             </div>        
           </div>
-          <div class="col d-block">
+          <div class="col d-lg-block">
             <div class="d-grid align-self-center mt-5">
-              <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-g"></i> GCash</button>
+              <button type="button" class="btn btn-outline-primary"><i class="fa-solid fa-g"></i> GCash</button>
             </div>
           </div>  
+          <br>
         </div>
         
         <div class="col-lg-9 col-md-12">
           <div class="row text-center">
-            <div class="col-12 ">
-              <img class="img-fluid" src="img/First.png">
+            <br>
+            <div class="col-12 d-block" data-aos="fade-right" data-aos-delay="100">
+              <img class="img-fluid" src="img/First.png" style="width: 650px; height:auto;">
             </div>
-            <div class="col-12 d-block">
-              <img class="img-fluid" src="img/Second.png">
+            <div class="col-12 d-block" data-aos="fade-left" data-aos-delay="100">
+              <img class="img-fluid" src="img/Second.png" style="width: 650px; height:auto;">
             </div>
-            <div class="col-12 d-block">
-              <img class="img-fluid" src="img/Third.png">
+            <div class="col-12 d-block" data-aos="fade-right" data-aos-delay="100">
+              <img class="img-fluid" src="img/Third.png" style="width: 650px; height:auto;">
             </div>
           </div>
         </div>
-
-        
-      
       </div>
     </div>
 
-    <div class="container-fluid" style="height: 600px;"></div>
+    <section id="testimonies"><br><br><br><br></section>
+    <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events">
+      <div class="swiper-wrapper" id="swiper-wrapper-4ff25f3f31e64c67" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-10410px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="8" role="group" aria-label="9 / 9" style="width: 1011px; margin-right: 30px;">Slide 9</div>
+        <div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 9" style="width: 1011px; margin-right: 30px;">
+          <div class="container-fluid bg-custom" style="height:600px">
+            <h2 class="testimony-text">Woof woof! I really ruff hoomans who chooses to adopt.</h2>
+            <img src="img/bulldog.jpg" alt="dog-profile" class="testimony-image">
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-slide-index="1" role="group" aria-label="2 / 9" style="width: 1011px; margin-right: 30px;">
+          <div class="container-fluid bg-custom" style="height:600px"></div>
+        </div>
+      <div class="swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 9" style="width: 1011px; margin-right: 30px;">Slide 1</div></div>
+      <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-4ff25f3f31e64c67"></div>
+      <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-4ff25f3f31e64c67"></div>
+      <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 8"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 9"></span></div>
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
   </div>
    
 
@@ -127,7 +160,26 @@
 
     <script src="//code.tidio.co/pebi7lv4glilvza2hf926llxsfb2dwmc.js" async></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    
     <script type="text/javascript">
       var nav = document.querySelector('nav');
       var banner = document.getElementById('banner');
