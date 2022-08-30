@@ -100,6 +100,10 @@ body{
     height:auto;
 }
 
+.mapouter{
+    position:relative;text-align:right;height:500px;width:600px;
+}
+
 @media screen and (min-width: 800px) and (max-width: 1280px) {
     
   }
@@ -120,7 +124,9 @@ body{
     .banner-image{
         background-size: cover;
     }
-
+    .mapouter{
+        position:relative;text-align:right;height:200px;width:300px;
+    }
     .banner{
         text-align: center;
     }
